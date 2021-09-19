@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Sign Up</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="stylesheet.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <div class="header">
+            <h1>Dream Store</h1>
+            <p>Find Your Desired Book Here</p>
+        </div>
+        <div class="nav">
+            <a href="buy.html" >BUY</a>
+            <a href="cart.html" class="right">CART</a>
+            
+        </div>
+        <div class="body">
+            <form action="action.php" method='post' target="_blank">
+                <center>
+                    <div class="container">
+                        <div class="form-row">
+                            <div class="col-left">
+                                <label for="name"><b>Name</b></label>
+                            </div>
+                            <div class="col-right">
+                                <input id="name" name="name" type="text" placeholder="Name" required><br><br>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="col-left">
+                                <label for="gender"><b>Gender</b></label>
+                            </div>
+                            <div class="col-right">
+                                <input id="male" name="gender" type="radio"><label>Male</label>   
+                                <input id="female" name="gender" type="radio"><label>Female</label>
+                                <input id="tg" name="gender" type="radio"><label>Transgender</label><br><br>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="col-left">    
+                                <label for="email"><b>Email</b></label>
+                            </div>
+                            <div class="col-right">
+                                <input id="email" name="email" type="email" placeholder="Email" required><br>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="col-left">
+                                <label for="pswd"><b>Password</b></label>
+                            </div>
+                            <div class="col-right">
+                                <input type="password" id="pswd" name="pswd" placeholder="Password" required><br>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="col-left">
+                                <label for="no"><b>Phone No</b></label>
+                            </div>
+                            <div class="col-right">
+                                <input id="no" name="no" type="text" placeholder="Phone No" required>
+                            </div>
+                        </div>
+                        <div class="form-row" style="background-color: #ddd">
+                            <input type="submit" >
+                            <input type="reset" >
+                            <br/>
+                            <p>Already have an account! <a href="login.html">Login</a></p>
+                        </div>
+                    </div>
+                </center>
+            </form>            
+        </div>
+        <div class="footer">
+            <p>Copyright Reserved By Dream Store | Contact Now- +19 4444444455 </p>
+        </div>
+    </body>
+</html>
